@@ -1,0 +1,42 @@
+body {
+    padding-bottom: 20px;
+}
+
+div.content {
+    margin-top: 30px;
+}
+
+div.jumbotron {
+    width: 920px;
+    height: 300px;
+    padding-top: 35px;
+    padding-left: 20px;
+    text-shadow: black 1px 1px 2px;
+    color: white;
+}
+
+div.jumbotron h1 {
+    background: orange;
+    display: inline-block;
+    padding: 5px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+}
+
+body.turnaj   div.jumbotron { background: url(/img/hero-1.jpg); }
+body.pravidla div.jumbotron { background: url(/img/hero-3.jpg); }
+body.rozpis   div.jumbotron { background: url(/img/hero-4.jpg); }
+
+table.pavouk td {
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table.pavouk td:last-child {
+    text-align: center;
+}
+
+div.tabbable {
+    padding-top: 10px;
+}

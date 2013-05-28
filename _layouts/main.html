@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }} | Boskovice dětem a rodinám</title>
+        <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/css/main.css" rel="stylesheet" media="screen">
+    </head>
+    <body class="{{ page.class }}">
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="/bootstrap/js/bootstrap.min.js"></script>
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <ul class="nav">
+                    {% for node in site.pages %}
+                    {% if page.url == node.url %}
+                        <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+                    {% else %}
+                        <li><a href="{{node.url}}">{{node.title}}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="content container">
+            <div class="jumbotron">
+                <h1>Boskovice dětem a rodinám</h1>
+                <p class="lead">3. mezinárodní fotbalový turnaj pro děti do deseti let<br>
+                15.–16. června 2013</p>
+            </div>
+            <hr>
+            {{ content }}
+            <hr>
+            <div class="footer">
+                <p>Pořádají <a href="http://fcboskovice.cz">FC Boskovice</a>,
+                <a href="http://www.fczbrno.cz">FC Zbrojovka Brno</a> a Jiří Vorlický;
+                poslední aktualizace 28. května 2013.</p>
+            </div>
+        </div>
+    </body>
+</html>
