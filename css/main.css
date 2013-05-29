@@ -1,5 +1,5 @@
 body {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 div.content {
@@ -21,6 +21,12 @@ div.jumbotron h1 {
     padding: 5px;
     padding-bottom: 8px;
     padding-right: 8px;
+}
+
+.footer {
+    margin-top: 20px;
+    border-top: 4px solid #dddddd;
+    padding-top: 20px;
 }
 
 body.turnaj   div.jumbotron { background: url(/img/hero-1.jpg); }
