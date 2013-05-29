@@ -37,6 +37,10 @@ table.pavouk td:last-child {
     text-align: center;
 }
 
+tr.predel {
+    background: rgb(240, 240, 240);
+}
+
 div.tabbable {
     padding-top: 10px;
 }
