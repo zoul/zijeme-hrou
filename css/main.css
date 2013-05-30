@@ -34,6 +34,7 @@ div.jumbotron h1 {
 }
 
 body.turnaj   div.jumbotron { background: url(/img/hero-1.jpg); }
+body.partneri div.jumbotron { background: url(/img/hero-2.jpg); }
 body.pravidla div.jumbotron { background: url(/img/hero-3.jpg); }
 body.rozpis   div.jumbotron { background: url(/img/hero-4.jpg); }
 
@@ -53,4 +54,16 @@ tr.predel {
 
 div.tabbable {
     padding-top: 10px;
+}
+
+.partner img {
+    border: 1px solid #dddddd;
+    width: 300px;
+    height: 150px;
+}
+
+.partner p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
 }
