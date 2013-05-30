@@ -1,4 +1,4 @@
-.footer, .navbar, .jumbotron, .nav-tabs {
+.no-print, .footer, .navbar, .jumbotron, .nav-tabs {
     display: none;
 }
 
