@@ -1,0 +1,26 @@
+.footer, .navbar, .jumbotron, .nav-tabs {
+    display: none;
+}
+
+hr.page-break {
+    visibility: hidden;
+    page-break-after: always;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 2mm;
+}
+
+th.long {
+    min-width: 7cm;
+}
+
+tr.predel td {
+    background: #eeeeee;
+}

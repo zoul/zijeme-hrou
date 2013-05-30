@@ -6,6 +6,10 @@ div.content {
     margin-top: 30px;
 }
 
+.print-only {
+    display: none;
+}
+
 div.jumbotron {
     width: 920px;
     height: 300px;
