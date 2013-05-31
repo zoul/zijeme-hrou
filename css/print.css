@@ -1,4 +1,6 @@
-.no-print, .footer, .navbar, .jumbotron, .nav-tabs {
+@import url('shared.css');
+
+.no-print, .footer, .navbar, .nav-tabs {
     display: none;
 }
 
@@ -6,6 +8,8 @@ hr.page-break {
     visibility: hidden;
     page-break-after: always;
 }
+
+/* Tabulky */
 
 table {
     border-collapse: collapse;
@@ -17,10 +21,23 @@ td, th {
     padding: 2mm;
 }
 
+/* Rozpis */
+
 th.long {
     min-width: 7cm;
 }
 
 tr.predel td {
     background: #eeeeee;
+}
+
+/* Vysledky */
+
+table.vysledky {
+    font-size: 50%;
+}
+
+.vysledky td {
+    width: 1.5cm;
+    height: 1.5cm;
 }

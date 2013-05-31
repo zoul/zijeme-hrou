@@ -1,3 +1,5 @@
+@import url('shared.css');
+
 body {
     padding-bottom: 40px;
     padding-top: 60px;
@@ -55,23 +57,6 @@ div.tabbable {
 
 /* Vysledky */
 
-table.vysledky {
-    table-layout: fixed;
-}
-
-.vysledky .dud {
-    background: #eeeeee;
-}
-
-.vysledky-zaklad td:nth-child(7),
-.vysledky-zaklad th:nth-child(7),
-.vysledky-postup td:nth-child(5),
-.vysledky-postup th:nth-child(5),
-.vysledky-baraz  td:nth-child(9),
-.vysledky-baraz  th:nth-child(9) {
-    border-right: 3px solid #dddddd;
-}
-
 .vysledky td {
     position: relative;
     vertical-align: middle;
@@ -87,21 +72,6 @@ table.vysledky {
 .vysledky-postup td,
 .vysledky-postup th {
     height: 90px;
-}
-
-.match-no-long {
-    color: gray;
-    position: relative;
-    font-size: 80%;
-    top: -0.5em;
-}
-
-.match-no {
-    position: absolute;
-    font-size: 80%;
-    color: gray;
-    left: 2px;
-    top: 0px;
 }
 
 /* Partneri */
