@@ -12,10 +12,11 @@ div.content {
 
 div.jumbotron {
     width: 920px;
-    height: 300px;
+    height: 260px;
     padding-top: 35px;
     padding-left: 20px;
     text-shadow: black 1px 1px 2px;
+    background: url(/img/hero/1.jpg);
     color: white;
 }
 
@@ -32,11 +33,6 @@ div.jumbotron h1 {
     border-top: 4px solid #dddddd;
     padding-top: 20px;
 }
-
-body.turnaj   div.jumbotron { background: url(/img/hero-1.jpg); }
-body.partneri div.jumbotron { background: url(/img/hero-2.jpg); }
-body.pravidla div.jumbotron { background: url(/img/hero-3.jpg); }
-body.rozpis   div.jumbotron { background: url(/img/hero-4.jpg); }
 
 table.pavouk td {
     vertical-align: middle;
