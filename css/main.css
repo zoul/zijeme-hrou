@@ -34,6 +34,8 @@ div.jumbotron h1 {
     padding-top: 20px;
 }
 
+/* Pravidla */
+
 table.pavouk td {
     vertical-align: middle;
     padding-left: 10px;
@@ -44,6 +46,8 @@ table.pavouk td:last-child {
     text-align: center;
 }
 
+/* Rozpis */
+
 tr.predel {
     background: rgb(240, 240, 240);
 }
@@ -51,6 +55,28 @@ tr.predel {
 div.tabbable {
     padding-top: 10px;
 }
+
+/* Vysledky */
+
+table.vysledky {
+    table-layout: fixed;
+}
+
+.vysledky td, .vysledky th {
+    width: 80px;
+    height: 80px;
+}
+
+.vysledky .dud {
+    background: #eeeeee;
+}
+
+.vysledky td:nth-child(7),
+.vysledky th:nth-child(7) {
+    border-right: 3px solid #dddddd;
+}
+
+/* Partneri */
 
 .partner img {
     border: 1px solid #dddddd;
