@@ -15,13 +15,13 @@
             <div class="navbar-inner">
                 <div class="container">
                     <ul class="nav">
-                    {% for node in site.pages %}
+                    {% sorted_for node in site.pages sort_by:position%}
                     {% if page.url == node.url %}
                         <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
                     {% else %}
                         <li><a href="{{node.url}}">{{node.title}}</a></li>
                     {% endif %}
-                    {% endfor %}
+                    {% endsorted_for %}
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
                 </div>
                 <div class="span4">
                     <p class="muted">Tiráž</p>
-                    <p>31. května 2013<br>
+                    <p>1. června 2013<br>
                     <a href="http://zmotula.cz">zmotula.cz</a></p>
                 </p>
             </div>
