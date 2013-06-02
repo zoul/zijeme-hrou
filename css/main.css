@@ -33,6 +33,11 @@ div.jumbotron h1 {
     padding-top: 20px;
 }
 
+iframe {
+    border: none;
+    border-top: 1px solid #eeeeee;
+}
+
 /* Pravidla */
 
 table.pavouk td {
