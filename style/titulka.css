@@ -1,3 +1,5 @@
+@import url(/style/shared.css);
+
 /* Úvodní obrázek a text */
 
 .splash {
@@ -17,11 +19,6 @@
 
 h1 {
     color: white;
-    text-shadow: black 1px 1px 2px;
-    background: orange;
-    display: inline-block;
-    padding: 7px;
-    margin-left: -7px;
 }
 
 .intro p {
