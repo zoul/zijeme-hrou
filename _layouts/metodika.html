@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8">
+        <title>Metodické okénko | Žijeme hrou</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/style/metodika.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        {% include navigace.html %}
+        <div class="huge-header">
+            <div class="container">
+                <h1 class="inverse">Metodické okénko</h1>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+            </div>
+        </div>
+        <div class="container">
+            {{ content }}
+            {% include footer.html %}
+        </div>
+        <script src="//code.jquery.com/jquery.js"></script>
+        <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/code/ga.js"></script>
+    </body>
+</html>
