@@ -65,7 +65,7 @@ li.active > a {
     background: #ddd;
 }
 
-li:not(.active) a:hover {
+li:not(.active) > a:hover {
     color: #333;
 }
 
