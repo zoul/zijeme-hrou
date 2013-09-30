@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8">
+        <title>Blog | Žijeme hrou</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/style/blog.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        {% include navigace.html category="blog" %}
+        <div class="huge-header">
+            <div class="container">
+                <h1 class="inverse">Blog</h1>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8">
+                    {% assign post = site.posts.first %}
+                    <div class="page-header">
+                        <h2>{{ post.title }}</h2>
+                    </div>
+                    {{ post.content }}
+                </div>
+                <div class="col-xs-4">
+                    <div class="page-header">
+                        <h2><small>Další příspěvky</small></h2>
+                    </div>
+                    <ul>
+                    {% for post in site.posts %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% include footer.html %}
+        </div>
+        <script src="//code.jquery.com/jquery.js"></script>
+        <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/code/ga.js"></script>
+    </body>
+</html>
