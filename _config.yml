@@ -1,3 +1,4 @@
+permalink: '/blog/:year/:month/:title.html'
 navigation:
     - {title: 'Metodika', ategory: 'metodika', url: '/metodika/index.html'}
     - {title: 'Soutěže', category: 'souteze', url: '/souteze/index.html'}
