@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="/style/souteze.css" rel="stylesheet" media="screen">
+        <link href="/style/video.css" rel="stylesheet" media="screen">
     </head>
     <body>
         {% include navigace.html category="souteze" %}
@@ -21,7 +22,14 @@
                     <nav class="sidebar-menu" data-spy="affix" data-offset-top="250">
                         <ul class="menu main-menu">
                             <li><a href="/souteze/">Soutěže</a></li>
-                            <li><a href="/souteze/boskovice/">Fotbalový turnaj Boskovice</a></li>
+                            <li>
+                                <a href="/souteze/boskovice/">Fotbalový turnaj Boskovice</a>
+                                <ul class="menu sub-menu">
+                                    <li><a href="/souteze/boskovice/2014.html">Aktuální ročník</a></li>
+                                    <li><a href="/souteze/boskovice/2013.html">Ročník 2013</a></li>
+                                    <li><a href="/souteze/boskovice/2012.html">Ročník 2012</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </nav>
                 </div>
