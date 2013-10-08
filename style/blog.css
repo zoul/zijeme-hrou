@@ -9,5 +9,5 @@
 
 .blog-posts li:before {
     content: "❋  ";
-    color: gray;
+    color: orange;
 }
