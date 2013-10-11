@@ -43,9 +43,43 @@
     color: white;
 }
 
+/* Ohlasy */
+
+div.ohlas:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+div.ohlas {
+    position: relative;
+}
+
+div.ohlas:before {
+    content: "„";
+    color: #eee;
+    position: absolute;
+    top: -0.94ex;
+    left: -0.88ex;
+    line-height: 1ex;
+    font-size: 1000%;
+    z-index: -1000;
+}
+
+p.zdroj:before {
+    content: "—";
+}
+
 /* Obsah */
+
+.indent {
+    margin-top: 20px;
+}
 
 h1 small, h2 small {
     white-space: nowrap;
 }
 
+a.thumbnail {
+    margin-bottom: 20px;
+}
