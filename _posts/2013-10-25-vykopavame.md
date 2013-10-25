@@ -9,7 +9,7 @@ Počátky projektu sahají několik let zpátky do fotbalového klubu [FC Bosko
 
 Chtěli jsme také, aby byl fotbal přirozeně zapojený do širšího společenského dění, do rodin všech hráčů, kam sport podle nás patří. Ještě pod hlavičkou FC Boskovice jsme proto poprvé uspořádali mezinárodní fotbalový turnaj [Boskovice dětem a rodinám][turnaj], na jehož čtvrtý ročník se dnes [můžete začít hlásit][prihlaska].
 
-Od klubu FC Boskovice jsme se časem osamostatnili a výsledkem je tento web, na kterém bychom ve svých plánech chtěli pokračovat.
+Od klubu FC Boskovice jsme se časem osamostatnili a výsledkem je tento web, na kterém bychom ve svých plánech chtěli pokračovat – zveřejňováním metodických materiálů, pořádáním sportovních soutěží a podobně.
 
 [fcb]: http://www.fcboskovice.cz
 [turnaj]: /souteze/boskovice/
