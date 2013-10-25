@@ -1,0 +1,4 @@
+permalink: '/blog/:year/:month/:title.html'
+navigation:
+    - {title: 'Soutěže', category: 'souteze', url: '/souteze/index.html'}
+    - {title: 'Blog', category: 'blog', url: '/blog/index.html'}

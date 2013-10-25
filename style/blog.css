@@ -1,0 +1,13 @@
+@import url(/style/shared.css);
+
+.blog-posts {
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.blog-posts li:before {
+    content: "❋  ";
+    color: orange;
+}

@@ -1,0 +1,85 @@
+/* Patička */
+
+.footer {
+    border-top: 1px solid #eee;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: gray;
+}
+
+/* Oranžové podbarvení nápisů */
+
+.inverse {
+    text-shadow: black 1px 1px 2px;
+    background: orange;
+    display: inline-block;
+    padding: 7px;
+    padding-right: 10px;
+    margin-left: -7px;
+}
+
+/* Obrázkové záhlaví */
+
+.huge-header {
+    width: 100%;
+    height: 250px;
+    background-image: url(/img/trava.jpg);
+    background-size: cover;
+    margin-top: 51px;
+    padding-top: 40px;
+    text-shadow: 1px 1px 2px gray;
+    border-top: 1px solid white;
+}
+
+.huge-header h1 {
+    font-size: 400%;
+    color: white;
+}
+
+.huge-header p {
+    font-size: 140%;
+    text-shadow: black 1px 1px 2px;
+    color: white;
+}
+
+/* Ohlasy */
+
+div.ohlas:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+div.ohlas {
+    position: relative;
+}
+
+div.ohlas:before {
+    content: "„";
+    color: #eee;
+    position: absolute;
+    top: -0.94ex;
+    left: -0.88ex;
+    line-height: 1ex;
+    font-size: 1000%;
+    z-index: -1000;
+}
+
+p.zdroj:before {
+    content: "—";
+}
+
+/* Obsah */
+
+.indent {
+    margin-top: 20px;
+}
+
+h1 small, h2 small {
+    white-space: nowrap;
+}
+
+a.thumbnail {
+    margin-bottom: 20px;
+}

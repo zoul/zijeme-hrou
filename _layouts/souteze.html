@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }} | Žijeme hrou</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/style/souteze.css" rel="stylesheet" media="screen">
+        <link href="/lib/lightbox/css/lightbox.css" rel="stylesheet">
+    </head>
+    <body>
+        {% include navigace.html category="souteze" %}
+        <div class="huge-header">
+            <div class="container">
+                <h1 class="inverse">Soutěže</h1>
+                <p>Společenské sportovní vyžití pro všechny věkové i výkonnostní kategorie.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <nav class="sidebar-menu" data-spy="affix" data-offset-top="250">
+                        <ul class="menu main-menu">
+                            <li><a href="/souteze/">Soutěže</a></li>
+                            <li>
+                                <a href="/souteze/boskovice/">Fotbalový turnaj Boskovice</a>
+                                <ul class="menu sub-menu">
+                                    <li><a href="/souteze/boskovice/2014.html">Aktuální ročník</a></li>
+                                    <li><a href="/souteze/boskovice/2013.html">Ročník 2013</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xs-9">
+                    {{ content }}
+                </div>
+            </div>
+            {% include footer.html %}
+        </div>
+        <script src="//code.jquery.com/jquery.js"></script>
+        <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/code/menu-highlight.js"></script>
+        <script src="/code/sidebar.js"></script>
+        <script src="/code/ga.js"></script>
+        <script src="/lib/lightbox/js/lightbox-2.6.min.js"></script>
+    </body>
+</html>
