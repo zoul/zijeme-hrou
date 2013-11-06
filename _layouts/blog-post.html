@@ -28,7 +28,11 @@
                         <h2><small>Další příspěvky</small></h2>
                     </div>
                     <ul class="blog-posts">
-                        <li>Zatím nic</li>
+                    {% for post in site.posts %}
+                        {% if post.url != page.url %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                        {% endif %}
+                    {% endfor %}
                     </ul>
                 </div>
             </div>
