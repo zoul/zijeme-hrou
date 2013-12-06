@@ -36,7 +36,5 @@ layout: blog-post
 
 Seminář povedou trenéři a autoři programu: Jiří Vorlický, Martin Daněk a Luděk Procházka. Po celý den zajištěno občerstvení. Podrobné informace budou zaslány zájemcům po přihlášení do neděle 24. listopadu. Cena: 600–1000 Kč dle počtu přihlášených, počet účastníků je omezen. Pro trenéry „C“ licencí OFS Blansko bude účast započítána do doškolení. Trenéři s sebou potřebují sportovní oblečení pro praktickou část, která bude probíhat na UT v Boskovicích.
 
-<a href="http://goo.gl/PM31lP" class="btn btn-primary indent">Přihlásit na seminář</a>
-
 [jmkfs]: http://www.jmkfs.cz
 [ofs]: http://rozhodci-ofsblansko.webnode.cz/ofs-blansko/
