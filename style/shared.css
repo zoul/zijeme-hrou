@@ -66,8 +66,8 @@ div.ohlas:before {
     z-index: -1000;
 }
 
-p.zdroj:before {
-    content: "—";
+.nav-topmost {
+    padding-top: 50px;
 }
 
 /* Obsah */
@@ -78,6 +78,11 @@ p.zdroj:before {
 
 h1 small, h2 small {
     white-space: nowrap;
+}
+
+h2 small {
+    text-transform: uppercase;
+    font-size: 50%;
 }
 
 a.thumbnail {
