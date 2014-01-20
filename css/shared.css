@@ -60,12 +60,13 @@ h1, h2, h3 {
     height: 60px;
     background: url(/img/trava.jpg);
     background-size: cover;
+    box-shadow: 0 0 3px gray;
 }
 
 .nav-header li {
     display: inline-block;
-    line-height: 55px;
-    padding-bottom: 5px;
+    line-height: 57px;
+    padding-bottom: 3px;
     text-transform: lowercase;
     color: white;
     font-size: 36px;
@@ -105,6 +106,7 @@ h1, h2, h3 {
     padding-top: 50px;
     padding-bottom: 40px;
     margin-top: 40px;
+    box-shadow: 0 0 3px gray;
 }
 
 .footer h2 {
