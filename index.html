@@ -1,66 +1,46 @@
 ---
-layout: titulka
+layout: homepage
 ---
-<div class="page-header">
-    <h2>Projekty</h1>
+<div class="masthead">
+    <div class="container">
+        <div class="ball"></div>
+        <div class="type">
+            <h1>Žijeme hrou</h1>
+            <p class="subtitle">Chceme hodnotnější pojetí sportu, ve kterém se na první
+            místo vrací prožitek sportovce, zábava a osobní rozvoj. Chceme sport, který
+            přispívá ke zdravější společnosti.</p>
+        </div>
+    </div>
 </div>
-<div class="row projekty">
-    <div class="col-sm-4">
-        <a href="/souteze/">
-            <div class="border">
-                <img src="/img/souteze.jpg" class="img-circle" alt="">
+
+<div class="container projects">
+    <div class="col col-side">
+        <h2>Projekty</h2>
+    </div><div class="col col-main">
+        <h3><a href="/souteze/">Soutěže</a></h3>
+        <p>Sportovní soutěže jako ideální příležitost k osobnímu prožitku a rozvoji;
+        sport jako společenská aktivita.</p>
+        <h3><a href="/akademie/">Fotbalová akademie</a></h3>
+        <p>Moderní fotbalový program pro malé fotbalisty a jejich kluby i rodiče.</p>
+        <h3><a href="/koucovani/">Koučování</a></h3>
+        <p>Osobní služby v oblasti koučování, mentorování, lektorování a sportovního
+        tréninku.</p>
+    </div>
+</div>
+
+<hr>
+
+<div class="container blog">
+    <div class="col col-side">
+        <h2>Blog</h2>
+    </div><div class="col col-main blog-roll">
+        {% for post in site.posts %}
+            <div class="post-preview">
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <p>{{ post.excerpt | strip_html }}</p>
             </div>
-            <h3>Soutěže</h3>
-            <p>Sportovní soutěže jako ideální příležitost k osobnímu prožitku a
-            rozvoji; sport jako společenská aktivita.</p>
-        </a>
-    </div>
-    <div class="col-sm-4">
-        <a href="/koucovani/">
-            <div class="border">
-                <img src="/img/koucovani.jpg" class="img-circle" alt="">
-            </div>
-            <h3>Koučování</h3>
-            <p>Osobní služby v oblasti koučování, mentorování, lektorování a sportovního tréninku.</p>
-        </a>
-    </div>
-    <div class="col-sm-4">
-        <a href="/blog/">
-            <div class="border">
-                <img src="/img/blok.jpg" class="img-circle" alt="">
-            </div>
-            <h3>Blog</h3>
-            <p>Metodické materiály a informace o námi pořádaných soutěžích a kurzech.</p>
-        </a>
+        {% endfor %}
     </div>
 </div>
-<div class="container">
-<div class="page-header">
-    <h2>Partneři</h1>
-</div>
-<div class="row partneri">
-    <div class="col-md-3">
-        <a href="http://www.coerver.cz/">
-            <img src="/img/coerver.png" class="img-thumbnail" alt="Coerver Coaching">
-        </a>
-        <p>Coerver Coaching</p>
-    </div>
-    <div class="col-md-3">
-        <a href="http://www.akademiefotbalu.cz/">
-            <img src="/img/akademie.png" class="img-thumbnail" alt="Česká fotbalová akademie">
-        </a>
-        <p>Česká fotbalová akademie</p>
-    </div>
-    <div class="col-md-3">
-        <a href="http://www.fstrebic.cz/">
-            <img src="/img/trebic.png" class="img-thumbnail" alt="Fotbalová škola Třebíč">
-        </a>
-        <p>Fotbalová škola Třebíč</p>
-    </div>
-    <div class="col-md-3">
-        <a href="http://koucinkcentrum.cz/">
-            <img src="/img/kcentrum.png" class="img-thumbnail" alt="Koučink centrum">
-        </a>
-        <p>Koučink Centrum</p>
-    </div>
-</div>
+
+{% include footer.html %}

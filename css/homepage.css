@@ -1,0 +1,66 @@
+/* Heading */
+
+.masthead {
+    margin-bottom: 20px;
+    background-image: url(/img/hero.jpg);
+    background-size: cover;
+}
+
+.masthead .container {
+    position: relative;
+    height: 425px;
+}
+
+.type {
+    position: absolute;
+    color: white;
+    top: 169px;
+    left: 433px;
+}
+
+h1 {
+    color: white;
+}
+
+p.subtitle {
+    width: 500px;
+}
+
+.ball {
+    width: 520px;
+    height: 520px;
+    position: absolute;
+    left: 340px;
+    top: -360px;
+    background-image: url(/img/balon.png);
+    background-size: cover;
+}
+
+/* Blog */
+
+.blog-roll {
+    padding-top: 10px;
+}
+
+.post-preview:not(:first-child) p {
+    display: none;
+}
+
+.post-preview h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    font-weight: 200;
+}
+
+.post-preview p {
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+/* Content */
+
+hr {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
