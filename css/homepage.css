@@ -42,22 +42,6 @@ p.subtitle {
     padding-top: 10px;
 }
 
-.post-preview:not(:first-child) p {
-    display: none;
-}
-
-.post-preview h3 {
-    font-size: 18px;
-    text-transform: uppercase;
-    margin-bottom: 3px;
-    font-weight: 200;
-}
-
-.post-preview p {
-    margin-top: 7px;
-    margin-bottom: 20px;
-}
-
 /* Content */
 
 hr {

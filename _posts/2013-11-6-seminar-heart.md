@@ -7,7 +7,7 @@ Okresní fotbalový svaz Blansko ve spolupráci s Jihomoravským krajským fotba
 
 Časový harmonogram:
 
-<table class="table table-striped indent">
+<table class="table table-striped">
 	<tr>
 		<td>8.30–9.00</td>
  		<td>registrace</td>

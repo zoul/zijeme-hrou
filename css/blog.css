@@ -1,0 +1,29 @@
+h1, h2 {
+    margin-bottom: 30px;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    /* this makes the 16:9 videos fit without borders into the 570px wide column */
+    min-height: 321px;
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table td {
+    border: 1px solid silver;
+    padding: 4px;
+}

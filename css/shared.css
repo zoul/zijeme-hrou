@@ -4,8 +4,6 @@ body, h1, h2, h3, p, ul {
     padding: 0; margin: 0;
 }
 
-/* Typo */
-
 body {
     font-family: "Helvetica Neue", "Helvetica", sans-serif;
     font-weight: 200;
@@ -19,22 +17,9 @@ body {
 h1, h2, h3 {
     font-weight: 100;
     font-size: 64px;
-    line-height: 1.3em;
+    line-height: 1.2em;
     text-transform: lowercase;
     color: #941751;
-}
-
-h3 {
-    margin-bottom: 10px;
-}
-
-p {
-    margin-bottom: 1ex;
-}
-
-a {
-    color: #005493;
-    text-decoration: none;
 }
 
 /* Layout */
@@ -50,6 +35,14 @@ a {
     box-sizing: border-box;
 }
 
+.col-left {
+    padding-right: 20px;
+}
+
+.col-right {
+    padding-left: 20px;
+}
+
 .col-main {
     width: 590px;
 }
@@ -58,24 +51,63 @@ a {
     width: 434px;
 }
 
+/* Navigation Header */
+
+.nav-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background: url(/img/trava.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 36px;
+    font-weight: 100;
+    text-transform: lowercase;
+}
+
+.nav-header .col {
+    height: 60px;
+    line-height: 55px;
+    vertical-align: middle;
+}
+
+.nav-header .menu {
+    background: orange;
+}
+
+.nav-header a {
+    color: white;
+    display: block;
+    width: 100%;
+}
+
+.indented-content {
+    margin-top: 90px;
+}
+
+/* Blog Roll */
+
+.blog-post-preview:not(:first-child) .perex {
+    display: none;
+}
+
+.blog-post-preview:first-child {
+    margin-bottom: 20px;
+}
+
 /* Footer */
 
 .footer {
     background: #941751;
     color: #fff0dc;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 40px;
     margin-top: 40px;
 }
 
 .footer h2 {
     display: none;
-}
-
-.footer h3 {
-    font-size: 18px;
-    font-weight: 200;
-    text-transform: uppercase;
 }
 
 .footer h3, .footer a {
@@ -95,3 +127,28 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.img-responsive {
+    width: 100%;
+}
+
+.muted {
+    color: #8d8d8d;
+}
+
+h3.small {
+    font-size: 18px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 1ex;
+}
+
+a {
+    color: #005493;
+    text-decoration: none;
+}
+
