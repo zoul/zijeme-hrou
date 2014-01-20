@@ -60,26 +60,20 @@ h1, h2, h3 {
     height: 60px;
     background: url(/img/trava.jpg);
     background-size: cover;
+}
+
+.nav-header li {
+    display: inline-block;
+    line-height: 55px;
+    text-transform: lowercase;
     color: white;
     font-size: 36px;
     font-weight: 100;
-    text-transform: lowercase;
-}
-
-.nav-header .col {
-    height: 60px;
-    line-height: 55px;
-    vertical-align: middle;
-}
-
-.nav-header .menu {
-    background: orange;
+    margin-right: 20px;
 }
 
 .nav-header a {
     color: white;
-    display: block;
-    width: 100%;
 }
 
 .indented-content {
