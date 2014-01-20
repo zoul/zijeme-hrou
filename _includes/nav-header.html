@@ -2,7 +2,12 @@
     <div class="container">
         <ul class="list-unstyled menu">
             {% for node in site.data.navigation %}
+            {% assign nice_url = node.url | replace:'index.html', '' %}
+            {% if page.url == node.url or include.category == node.category %}
+            <li class="current"><a href="{{ node.url }}">{{ node.title }}</a></li>
+            {% else %}
             <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+            {% endif %}
             {% endfor %}
         </ul>
     </div>
