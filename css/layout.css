@@ -1,0 +1,52 @@
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+/* http://stackoverflow.com/questions/8554043/what-is-clearfix */
+.container:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.col {
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+}
+
+.col-main {
+    width: 580px;
+}
+
+.col-side {
+    width: 380px;
+}
+
+.pull {
+    position: absolute;
+    width: 380px;
+    left: 620px;
+}
+
+.sidebar-left .pull {
+    width: 380px;
+    left: -420px;
+}
+
+.sidebar-left .col-side { float: left; }
+.sidebar-left .col-main { float: right; }
+
+.sidebar-right .col-side { float: right; }
+.sidebar-right .col-main { float: left; }
+
+.full-width {
+    width: 1000px;
+}
+
+.fit-width {
+    width: 100%;
+}

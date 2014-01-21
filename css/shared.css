@@ -1,3 +1,5 @@
+@import url(layout.css);
+
 /* Baseline */
 
 body, h1, h2, h3, p, ul {
@@ -20,35 +22,6 @@ h1, h2, h3 {
     line-height: 1.2em;
     text-transform: lowercase;
     color: #941751;
-}
-
-/* Layout */
-
-.container {
-    width: 1024px;
-    margin: auto;
-}
-
-.col {
-    display: inline-block;
-    vertical-align: top;
-    box-sizing: border-box;
-}
-
-.col-left {
-    padding-right: 20px;
-}
-
-.col-right {
-    padding-left: 20px;
-}
-
-.col-main {
-    width: 590px;
-}
-
-.col-side {
-    width: 434px;
 }
 
 /* Navigation Header */
