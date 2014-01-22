@@ -34,6 +34,7 @@ h3.small {
 
 p, ul, ol, blockquote {
     margin-bottom: 1ex;
+    margin-top: 1ex;
 }
 
 a {
@@ -50,9 +51,16 @@ table {
     margin-bottom: 20px;
 }
 
+table.full-width {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: gray;
+    color: white;
+}
+
 td, th {
     border: 1px solid silver;
-    padding: 6px;
+    padding: 1ex;
     text-align: left;
 }
 

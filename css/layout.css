@@ -4,7 +4,7 @@
 }
 
 /* http://stackoverflow.com/questions/8554043/what-is-clearfix */
-.container:after {
+.container:after, .float-container:after {
     content: " ";
     visibility: hidden;
     display: block;
