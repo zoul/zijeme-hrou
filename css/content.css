@@ -1,0 +1,70 @@
+.list-unstyled {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+hr {
+    border: 2px dotted #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+hr.padded {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.indented {
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.muted {
+    color: #8d8d8d;
+}
+
+h3.small {
+    font-size: 18px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+p, ul, ol, blockquote {
+    margin-bottom: 1ex;
+}
+
+a {
+    color: #005493;
+    text-decoration: none;
+}
+
+/* Tables */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+td, th {
+    border: 1px solid silver;
+    padding: 6px;
+    text-align: left;
+}
+
+/* Citations */
+
+blockquote {
+    font-style: italic;
+}
+
+blockquote:after {
+    content: "– " attr(cite);
+    display: block;
+    font-style: normal;
+    margin-top: 1ex;
+}

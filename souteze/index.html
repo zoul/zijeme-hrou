@@ -1,22 +1,45 @@
 ---
-layout: souteze
-title: Soutěže
 ---
-
-<div class="page-header">
-    <h2>Pořádání sportovních soutěží</h2>
-</div>
-
-<p>Jedním ze způsobů, kterými prosazujeme myšlenku smysluplnějšího sportu, je
-pořádání sportovních soutěží. Sportovní soutěže už z principu zdůrazňují
-společenskou roli sportu a nabízí výbornou příležitost pro osobní prožitky a
-osobní i týmový rozvoj sportovců i celých týmů, ať už jde o sportovní družstva,
-rodiny, nebo pracovní kolektivy. Nabízíme proto programy a soutěže pro všechny
-výkonnostní i věkové kategorie, amatérské i profesionální: čistě zájmový,
-výkonnostní i vrcholový sport pro děti, mládež, juniory, dospělé i seniory —
-třeba i společně.</p>
-
-<hr>
-<p>
-    <img src="boskovice/fotky/03.jpg" class="img-responsive" alt="">
-</p>
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8">
+        <title>Sportovní soutěže | Žijeme hrou </title>
+        <link rel="stylesheet" href="/css/shared.css">
+        <link rel="stylesheet" href="/css/competitions.css">
+    </head>
+    <body class="sidebar-left">
+        {% include nav-header.html category='souteze' %}
+        <div class="container indented-content content">
+            <div class="col col-main">
+                <h2 class="pull">Proč soutěže?</h2>
+                <p>Sportovní soutěže už z principu zdůrazňují společenskou roli
+                sportu a nabízí výbornou příležitost pro osobní prožitky a
+                osobní i týmový rozvoj sportovců i celých týmů, ať už jde o
+                sportovní družstva, rodiny, nebo pracovní kolektivy. Nabízíme
+                programy a soutěže pro všechny výkonnostní i věkové kategorie,
+                amatérské i profesionální: čistě zájmový, výkonnostní
+                i vrcholový sport pro děti, mládež, juniory, dospělé i seniory
+                – třeba i společně.</p>
+            </div>
+            <a href="boskovice"><img src="/img/souteze.jpg" alt=""
+                class="full-width indented"></a>
+            <div class="col col-main">
+                <h2 class="pull"><a href="boskovice">Fotbalový turnaj Boskovice</a></h2>
+                <p>Pod názvem „Boskovice dětem a rodinám“ se v Boskovicích na
+                začátku léta každoročně již od roku 2011 koná mezinárodní
+                fotbalový turnaj pro děti do 11 let. Právě s tímto turnajem a
+                jeho původním pořadatelem FC Boskovice je spojen i počátek
+                projektu Žijeme hrou. V rámci FC Boskovice a fotbalového
+                turnaje jsme poprvé prakticky ověřili některé základní myšlenky
+                projektu, například rozdělení turnaje podle věku i výkonu,
+                přizpůsobení hry věku malých fotbalistů nebo zapojení turnaje
+                do širšího společenského kontextu.
+                <a href="boskovice">více o turnaji »</a>
+                </p>
+            </div>
+        </div>
+        {% include footer.html %}
+        {% include deferred-javascript.html %}
+    </body>
+</html>

@@ -15,7 +15,7 @@
     position: absolute;
     color: white;
     top: 169px;
-    left: 433px;
+    left: 420px;
 }
 
 h1 {
@@ -40,11 +40,4 @@ p.subtitle {
 
 .blog-roll {
     padding-top: 10px;
-}
-
-/* Content */
-
-hr {
-    margin-top: 35px;
-    margin-bottom: 30px;
 }

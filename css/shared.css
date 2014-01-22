@@ -1,10 +1,6 @@
+@import url(reset.css);
 @import url(layout.css);
-
-/* Baseline */
-
-body, h1, h2, h3, p, ul {
-    padding: 0; margin: 0;
-}
+@import url(content.css);
 
 body {
     font-family: "Helvetica Neue", "Helvetica", sans-serif;
@@ -28,6 +24,7 @@ h1, h2, h3 {
 
 .nav-header {
     position: fixed;
+    z-index: 1000;
     top: 0;
     width: 100%;
     height: 60px;
@@ -89,42 +86,3 @@ h1, h2, h3 {
 .footer h3, .footer a {
     color: #fff0dc;
 }
-
-/* Content */
-
-.list-unstyled {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-}
-
-hr {
-    border: 2px dotted #ccc;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.img-responsive {
-    width: 100%;
-}
-
-.muted {
-    color: #8d8d8d;
-}
-
-h3.small {
-    font-size: 18px;
-    font-weight: 200;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-p {
-    margin-bottom: 1ex;
-}
-
-a {
-    color: #005493;
-    text-decoration: none;
-}
-
