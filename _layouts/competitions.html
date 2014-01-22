@@ -7,9 +7,10 @@
         <link rel="stylesheet" href="/css/competitions.css">
     </head>
     <body class="sidebar-right">
-        {% include nav-header.html category='souteze' %}
+        {% include nav-bar.html source='navigation' category='souteze' class='first-level multi' %}
+        {% include nav-bar.html category='none' source='boskovice' class='second-level' %}
         <div class="content">
-            <div class="container indented-content">
+            <div class="container">
                 <div class="col col-main">
                     {{ content }}
                 </div>

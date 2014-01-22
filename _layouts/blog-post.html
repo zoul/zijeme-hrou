@@ -7,8 +7,8 @@
         <link rel="stylesheet" href="/css/blog.css">
     </head>
     <body class="sidebar-right">
-        {% include nav-header.html category='blog' %}
-        <div class="container indented-content">
+        {% include nav-bar.html source='navigation' category='blog' class='first-level' %}
+        <div class="container content">
             <div class="col col-main">
                 <h1>{{ page.title }}</h1>
                 {{ content }}
