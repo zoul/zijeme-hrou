@@ -71,6 +71,7 @@ h1, h2, h3 {
 
 .nav-bar a {
     color: white;
+    text-decoration: none;
 }
 
 .content {
