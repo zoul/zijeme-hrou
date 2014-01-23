@@ -63,15 +63,17 @@ td, th {
     text-align: left;
 }
 
-/* Citations */
+/* Testimonials */
 
-blockquote {
+.testimonial {
+    margin-bottom: 2ex;
     font-style: italic;
 }
 
-blockquote:after {
-    content: "– " attr(cite);
-    display: block;
+.testimonial .source {
     font-style: normal;
-    margin-top: 1ex;
+}
+
+.testimonial .source:before {
+    content: "– ";
 }

@@ -11,6 +11,6 @@ Lektoři Jiří Vorlický, Vlastimil Svoboda, Aleš Odehnal, Vladan Horák, Davi
 
 Jedním z hlavních momentů kurzu byl miniturnaj dětí čtyř týmů Zbrojovky Brno, Sparty Brno, Boskovic a Kunštátu. Než tedy účastníci absolvovali teoretickou část třídenního programu, vyzkoušeli si koučovat hráče v reálných situacích, spolupracovat s nimi a respektovat je jako lidské osobnosti. Všechny děti budoucím trenérům pomáhaly, a pořadatelé kurzu OFS Blansko a Žijeme hrou věří, že stejně budou i noví trenéři v budoucnu pomáhat svým svěřencům.
 
-[letajici]: http://nv.fotbal.cz/scripts/detail.php?id=112531&tmplid=1294
+[letajici]: http://nv.fotbal.cz/scripts/detail.php?id=112531&amp;tmplid=1294
 [coerver]: http://www.coerver.cz
 [heart]: /blog/2013/12/ohlednuti-za-seminarem-heart.html
