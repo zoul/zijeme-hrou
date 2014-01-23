@@ -24,6 +24,10 @@ p.subtitle {
     width: 500px;
 }
 
+.tagline {
+    margin-bottom: 3ex;
+}
+
 .ball {
     width: 520px;
     height: 520px;
