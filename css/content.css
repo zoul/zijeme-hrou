@@ -33,9 +33,14 @@ h3.small {
     margin-bottom: 10px;
 }
 
-p, ul, ol, blockquote {
+p, blockquote {
     margin-bottom: 1ex;
     margin-top: 1ex;
+}
+
+ul, ol {
+    margin-bottom: 2ex;
+    margin-top: 2ex;
 }
 
 a {
