@@ -1,3 +1,5 @@
+/* Heading */
+
 .masthead {
     background-image: url(/img/hero.jpg);
     background-size: cover;
@@ -24,10 +26,6 @@ p.subtitle {
     width: 500px;
 }
 
-.tagline {
-    margin-bottom: 3ex;
-}
-
 .ball {
     width: 520px;
     height: 520px;
@@ -36,6 +34,12 @@ p.subtitle {
     top: -360px;
     background-image: url(/img/balon.png);
     background-size: cover;
+}
+
+/* Content */
+
+.tagline:not(:last-child) {
+    margin-bottom: 3ex;
 }
 
 .blog-roll {

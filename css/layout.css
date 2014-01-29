@@ -36,6 +36,10 @@
     left: 620px;
 }
 
+.pull + * {
+    margin-top: 0;
+}
+
 .sidebar-left .pull {
     width: 380px;
     left: -420px;
