@@ -3,7 +3,7 @@ title: Víkend s Bohem
 layout: blog-post
 ---
 
-Žijeme hrou nejen fotbalovou, ale i divadelní: Je nám velkou ctí oznámit, že ve čtvrtek 3. dubna 2014 v 19.00 uvedeme v boskovické sokolovně divadelní představení [Víkend s Bohem][vikend] od Maria Kubce.
+Žijeme hrou nejen sportovní, ale i divadelní: Je nám velkou ctí oznámit, že ve čtvrtek 3. dubna 2014 v 19.00 uvedeme v boskovické sokolovně divadelní představení [Víkend s Bohem][vikend] od Maria Kubce.
 
 <img class="fit-width" src="/blog/img/vikend-s-bohem.jpg" alt="fotografie z představení">
 
