@@ -7,7 +7,7 @@ V rámci kreditního systému vzdělávání trenérů se v pátek 13. června 
 
 Součástí semináře bude kromě prezentace metodického přístupu FC Fulham i ukázková tréninková jednotka žáků FC Fulham, Zbrojovky Brno a nejúspěšnějšího projektu FAČR roku 2012, Létajících trenérů.
 
-Seminář je ohodnocen čtyřmi kredity, [závaznou přihlášku můžete vyplnit zde][prihlaska].
+Seminář je ohodnocen čtyřmi kredity, poplatek pro účastníky dělá 300 Kč, [závaznou přihlášku můžete vyplnit zde][prihlaska].
 
 [turnaj]: http://www.zijemehrou.cz/souteze/boskovice/
 [prihlaska]: http://goo.gl/sdSGoi
