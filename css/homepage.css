@@ -45,3 +45,8 @@ p.subtitle {
 .blog-roll {
     padding-top: 10px;
 }
+
+.partneri img {
+    width: 50%;
+    box-shadow: 2px 2px 4px gray;
+}
