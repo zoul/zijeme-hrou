@@ -47,7 +47,9 @@ p.subtitle {
 }
 
 .partneri img {
-    width: 50%;
+    width: 45%;
     box-shadow: 2px 2px 4px gray;
     margin-bottom: 15px;
+    margin-right: 4%;
+    float: left;
 }
