@@ -12,11 +12,14 @@ header {
     text-align: center;
 }
 
-h1 {
+h1, h2 {
     font-family: Anivers, serif;
+}
+
+h1 {
     font-size: 300%;
     text-transform: uppercase;
-    padding: 50px;
+    padding: 30px;
     color: #941751;
     line-height: 1em;
 }
@@ -31,6 +34,7 @@ nav {
     background: #fff0dc;
     font-family: Anivers, serif;
     box-shadow: 0px 2px 1px #ddd;
+    margin-bottom: 40px;
 }
 
 .menu {
@@ -68,6 +72,7 @@ footer {
     padding-top: 20px;
     padding-bottom: 40px;
     box-shadow: 0px -2px 1px #ddd;
+    margin-top: 40px;
 }
 
 /* Content */

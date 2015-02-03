@@ -6,6 +6,7 @@ why: A dummy header to make Jekyll process the file
 <head>
     {% include html-headers.html %}
     <title>Žijeme hrou – spolek pro zážitkové učení</title>
+    <link href="/style/blog.css" rel="stylesheet">
 </head>
 <body>
     {% include header.html %}
@@ -19,6 +20,20 @@ why: A dummy header to make Jekyll process the file
         </div>
     </nav>
     <main class="container">
+        {% for post in site.posts %}
+        <div class="row">
+            <div class="col-md-4">
+                <h2>{{ post.title }}</h2>
+                <p class="text-muted">{{ post.date | date: "%-d. %-m. %Y" }}</p>
+            </div>
+            <div class="col-md-8">
+                {{ post.content }}
+            </div>
+        </div>
+        {% if post.url != site.posts.last.url %}
+        <hr>
+        {% endif %}
+        {% endfor %}
     </main>
     {% include footer.html %}
 </body>
