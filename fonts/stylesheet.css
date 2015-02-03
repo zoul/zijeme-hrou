@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Anivers';
+    src: url('anivers_regular.eot');
+    src: url('anivers_regular.eot?#iefix') format('embedded-opentype'),
+         url('anivers_regular.woff2') format('woff2'),
+         url('anivers_regular.woff') format('woff'),
+         url('anivers_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
