@@ -110,6 +110,34 @@ footer a, footer a:hover {
     color: #94b2c0;
 }
 
+/* Members */
+
+h2.member-group {
+    border-bottom: 1px solid #941751;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.member {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.member img {
+    width: 55%;
+    max-width: 200px;
+    border: 4px solid transparent;
+}
+
+a:hover .member img {
+    border: 4px solid #94b2c0;
+}
+
+.member-link, .member-link:hover {
+    color: #444;
+}
+
 /* Content */
 
 main {

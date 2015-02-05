@@ -19,6 +19,21 @@ why: A dummy header to make Jekyll process the file
         </div>
     </nav>
     <main class="container">
+        {% assign members = site.data.members | group_by: "group" %}
+        {% for group in members %}
+        <h2 class="member-group">{{ group.name }}</h2>
+        <div class="row">
+            {% for member in group.items %}
+            <a href="{{ member.url }}" class="member-link">
+            <div class="col-md-4 member">
+                <img class="img-circle" src="/img/profily/{{ member.image }}" alt="{{ member.title }}">
+                <h2>{{ member.title }}</h2>
+                <p>{{ member.description }}</p>
+            </div>
+            </a>
+            {% endfor %}
+        </div>
+        {% endfor %}
     </main>
     {% include footer.html %}
 </body>

@@ -1,0 +1,29 @@
+- title: Radek Talafa
+  image: talafa.jpg
+  url: 'mailto:radektalafa@gmail.com'
+  description: "Absolvent Pedagogické fakulty MU, akreditovaný externí profesionální kouč."
+  group: Vzdělávání
+- title: Život prožitků
+  image: zivot-prozitku.jpg
+  url: http://www.zivotprozitku.cz/
+  group: Vzdělávání
+  description: "Život prožitků neboli umění věnovat se životu je projekt,
+  jehož jádro pochází ze starých zdravých základů a vnitřní motivace k
+  „novému“ učení."
+- title: Talent kouč
+  image: danek.jpg
+  url: http://www.talentkouc.cz/
+  group: Vzdělávání
+  description: "Syntéza nejlepších světových koučovacích škol."
+- title: Fotbalová škola Třebíč
+  image: fstrebic.jpg
+  url: http://www.fstrebic.cz/
+  group: Sport
+- title: FK Kunštát
+  image: fkkunstat.jpg
+  url: http://www.fkkunstat.cz/
+  group: Sport
+- title: ČAFC Židenice 2011
+  image: zidenice.jpg
+  url: http://cafczidenice2011.cz/
+  group: Sport
