@@ -2,7 +2,7 @@
 title: Program trenérského semináře s FC Fulham
 ---
 
-Na [trenérský seminář s FC Fulham](/blog/2014/03/trenersky-seminar-s-fc-fulham.html), který proběhne v pátek 13. června před zahájením fotbalového turnaje [Boskovice dětem a rodinám][turnaj], už je přihlášeno více než 100 trenérů všech licencovaných úrovní. Chcete-li se k nim přidat, [vyplňte závaznou přihlášku][prihlaska]. Poplatek pro účastníky je 300 Kč (členové UČFT za polovic), seminář je ohodnocen čtyřmi kredity. 
+Na trenérský seminář s FC Fulham, který proběhne v pátek 13. června před zahájením fotbalového turnaje [Boskovice dětem a rodinám][turnaj], už je přihlášeno více než 100 trenérů všech licencovaných úrovní. Chcete-li se k nim přidat, [vyplňte závaznou přihlášku][prihlaska]. Poplatek pro účastníky je 300 Kč (členové UČFT za polovic), seminář je ohodnocen čtyřmi kredity. 
 
 Program semináře:
 

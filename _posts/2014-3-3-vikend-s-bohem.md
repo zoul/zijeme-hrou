@@ -8,5 +8,5 @@ title: Víkend s Bohem
 
 Půjde o první reprízu představení, jehož premiéra proběhla v lednu v pražském [Divadle U Hasičů][hasici]. Vstupné dělá 250 Kč v předprodeji a 300 Kč na místě (prodej začíná hodinu před představením). Vstupenky můžete objednávat na adrese <ales@zijemehrou.cz>, případně telefonicky a přes SMS na čísle 724 359 661.
 
-[vikend]: http://www.mariokubec.cz/cs/film-a-divadlo/vikend-s-bohem
+[vikend]: http://www.mariokubec.cz/predstaveni/detail/1-vikend-s-bohem
 [hasici]: http://www.divadlouhasicu.net/repertoar/_vikend_s_bohem

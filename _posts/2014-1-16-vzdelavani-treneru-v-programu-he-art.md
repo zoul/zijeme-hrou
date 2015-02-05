@@ -4,7 +4,7 @@ title: Pomáháme se vzděláváním trenérů
 
 V neděli 12. ledna získalo 21 absolventů úspěšně základní trenérskou licenci, která jim umožňuje doprovázet fotbalové svěřence v okresních soutěžích. Kromě jiných témat se trenéři seznámili s tím, jak velkou roli hraje komunikace a vzájemný respekt, a to jak při práci s malými fotbalisty, tak při spolupráci s jejich rodiči.
 
-Lektoři Jiří Vorlický, Vlastimil Svoboda, Aleš Odehnal, Vladan Horák, David Kříž a René Gryc seznámili účastníky například s obsahem projektu FAČR [Létajících trenérů][letajici] nebo programy [Coerver][coerver] a [He-Art][heart], které podporují rozvoj hráčů jako lidských osobností.
+Lektoři Jiří Vorlický, Vlastimil Svoboda, Aleš Odehnal, Vladan Horák, David Kříž a René Gryc seznámili účastníky například s obsahem projektu FAČR [Létajících trenérů][letajici] nebo programy [Coerver][coerver] a He-Art, které podporují rozvoj hráčů jako lidských osobností.
 
 <img class="img-responsive" src="/blog/img/kurz.jpg" alt="ilustrační fotografie z kurzu">
 
@@ -12,4 +12,3 @@ Jedním z hlavních momentů kurzu byl miniturnaj dětí čtyř týmů Zbrojovky
 
 [letajici]: http://nv.fotbal.cz/scripts/detail.php?id=112531&amp;tmplid=1294
 [coerver]: http://www.coerver.cz
-[heart]: /blog/2013/12/ohlednuti-za-seminarem-heart.html

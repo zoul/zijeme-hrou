@@ -4,7 +4,7 @@ title: Pozvánka na sportovní workshopy
 
 Srdečně vás zveme na dva workshopy, které úzce souvisí s tématem projektu Žijeme hrou a mohly by vás zajímat.
 
-První z nich proběhne v Prešově, Ružomberku a Žilině ve dnech 12.–14. května. Tematicky je zaměřen na sebevědomí hráče a týmu, rozvoj potenciálu hráčů a projekt He-Art. Lektorovat budou Miroslav Mackulín, Luděk Procházka, Martin Daněk a Jiří Vorlický, [podrobnosti se dočtete v přiloženém souboru](/download/workshop-5-2014.doc).
+První z nich proběhne v Prešově, Ružomberku a Žilině ve dnech 12.–14. května. Tematicky je zaměřen na sebevědomí hráče a týmu, rozvoj potenciálu hráčů a projekt He-Art. Lektorovat budou Miroslav Mackulín, Luděk Procházka, Martin Daněk a Jiří Vorlický.
 
 Druhý workshop se jmenuje *Inner Game a koučink* a Luděk Procházka před ním varuje:
 
